@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="container">
+    <!-- <h3>
+        PAYMENT FORM EXAMPLE
+    </h3>
+    <h6>
+        Some fields are missing
+    </h6>
+    <div class="input-group mb-1">
+        <span class="input-group-text" id="basic-addon1">Card#</span>
+        <input type="text" class="form-control" placeholder="Card number" aria-label="Card number" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-2">
+        <span class="input-group-text" id="basic-addon2">CVC#</span>
+        <input type="text" class="form-control" placeholder="CVC number" aria-label="CVC number" aria-describedby="basic-addon2">
+    </div>
+      
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon3">Amount</span>
+        <input type="text" class="form-control" placeholder="Amount" aria-label="Amount" aria-describedby="basic-addon1">
+    </div>
+      
+      
+    <div class="input-group mb-2">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+    </div>
+      
+    <div class="mb-3">
+        <label for="basic-url" class="form-label">Your vanity URL</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        </div>
+        <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+    </div>
+      
+    <div class="input-group mb-4">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.00</span>
+    </div>
+      
+    <div class="input-group mb-5">
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+    </div>
+      
+    <div class="input-group">
+        <span class="input-group-text">With textarea</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div> -->
+    <div class="card">
+        <div class="card-header">
+         <h3>
+            Payment Form Example
+         </h3>
+        </div>
+        <div class="card-body">
+            <div class="alert alert-danger" role="alert">
+                Some fields are missing
+            </div>
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Card #</label>
+                        <input class="form-control" type="text" placeholder="xxxxxxxxxxxxxxxx">
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">CVC #</label>
+                        <input class="form-control" type="text" placeholder="000">
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Amount</label>
+                        <input class="form-control" type="text" placeholder="Amount">
+                      </div>
+                </div>
+              </div>
+              <div class="row align-items-start">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                </div>
+              </div>
+              <div class="row align-items-start">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">City</label>
+                        <input class="form-control" type="text" placeholder="">
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">State</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pick a state</option>
+                            <option value="1">State One</option>
+                            <option value="2">State Two</option>
+                            <option value="3">State Three</option>
+                            <option value="4">State Four</option>
+                            <option value="5">State Five</option>
+                         
+                        </select>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Postal Code</label>
+                        <input class="form-control" type="text" placeholder="">
+                      </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                    <h6>We accept:</h6>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-visa"></i></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-mastercard"></i></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                      <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-apple-pay"></i></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                      <label class="form-check-label" for="inlineRadio4"><i class="fa-brands fa-cc-amazon-pay"></i></label>
+                    </div>
+                  </div>
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <small>Add any notes here.</small> 
+                      </div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
+          <button class="btn btn-primary" type="button">Send</button>
+        </div>
+      </div>
+</body>
+</html>
